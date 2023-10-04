@@ -1,6 +1,6 @@
 {
   "name": "@thefirstspine/types-game",
-  "version": "4.0.0",
+  "version": "1.0.0",
   "description": "Types definition for game resources (such as cards, decks, etc.)",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
