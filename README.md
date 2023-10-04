@@ -1,11 +1,11 @@
-# 🗃 types-rest / @thefirstspine/types-rest
+# 🗃 types-rest / @thefirstspine/types-game
 
-Types definition for REST resources.
+Types definition for game resources (such as cards, decks, etc.)
 
 ## Install
 
 ```bash
-npm i @thefirstspine/types-rest@latest
+npm i @thefirstspine/types-game@latest
 ```
 
 ## Documentation
@@ -31,7 +31,3 @@ npm run lint
 ```bash
 npm publish
 ```
-
-## License
-
-TFS Platform is NOT licensed. You are free to download, view, run the repository. You are NOT allowed to redistribute this project for both commercial and non-commercial use. Deal with it.

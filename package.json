@@ -1,7 +1,7 @@
 {
-  "name": "@thefirstspine/types-rest",
+  "name": "@thefirstspine/types-game",
   "version": "4.0.0",
-  "description": "Types definition for REST resources.",
+  "description": "Types definition for game resources (such as cards, decks, etc.)",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "peerDependencies": {},
@@ -16,20 +16,15 @@
   },
   "scripts": {
     "build": "rimraf ./lib && tsc -b",
-    "test": "jest",
     "lint": "eslint ./src/**/*.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thefirstspine/dependency-auth.git"
+    "url": "git+https://github.com/thefirstspine/types-game.git"
   },
   "author": "Teddy Gandon",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/thefirstspine/dependency-auth/issues"
-  },
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
-  },
-  "homepage": "https://github.com/thefirstspine/dependency-auth#readme"
+  }
 }
