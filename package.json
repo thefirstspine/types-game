@@ -16,7 +16,8 @@
   },
   "scripts": {
     "build": "rimraf ./lib && tsc -b",
-    "lint": "eslint ./src/**/*.ts"
+    "lint": "eslint ./src/**/*.ts",
+    "test": "echo 'no test'"
   },
   "repository": {
     "type": "git",
